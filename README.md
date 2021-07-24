@@ -2,7 +2,7 @@
 Engenharia Química/Integração Energética.
 
 # O que ele faz:
-Algoritmo que calcula a demanda mínima de energia necessária proveniente de utilidades (vapor, água de refrigeração) a serem adicionados ao processo. De tal forma a reaproveitar a energia contida nas linhas quentes e frias do processo produtivo. O algoritmo é uma alternativa com baixo custo computacional frente à modelos de otimização existentes.
+Algoritmo que calcula a demanda mínima de energia necessária proveniente de utilidades (vapor, água de refrigeração) a serem adicionados ao processo. O objetivo é reaproveitar a energia contida nas linhas quentes e frias do processo produtivo. O algoritmo é uma alternativa com baixo custo computacional frente à modelos de otimização existentes.
 
 # Como ele faz:
 É necessário saber basicamente duas coisas:
