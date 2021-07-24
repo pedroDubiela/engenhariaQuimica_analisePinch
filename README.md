@@ -48,3 +48,7 @@ Para saber detalhes teóricos sobre a análise Pinch, recomendo a leitura do liv
     Primeiramente veremos uma tabela com todos os dados que inserimos para a resolução do problema, e posteriormente veremos os resultados. Destaquei em amarelo as quantidades de energia que devem ser retiradas e inseridas do processo e a Temperatura Pinch.
   
    ![image](https://user-images.githubusercontent.com/79408563/126881567-5d88d687-c190-4fcf-a5e1-ebcfeee33fbc.png)
+   
+   # Melhorias:
+    Criar uma interface gráfica.
+    Caso o arquivo xlsx gerado resulte em algum problema, me contate fazendo favor.
