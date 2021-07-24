@@ -50,5 +50,5 @@ Para saber detalhes teóricos sobre a análise Pinch, recomendo a leitura do liv
    ![image](https://user-images.githubusercontent.com/79408563/126881567-5d88d687-c190-4fcf-a5e1-ebcfeee33fbc.png)
    
    # Melhorias:
-    Criar uma interface gráfica.
-    Caso o arquivo xlsx gerado resulte em algum problema, me contate fazendo favor.
+   1) Criar uma interface gráfica.
+   2) Caso o arquivo xlsx gerado resulte em algum problema, me contate fazendo favor.
