@@ -3,7 +3,6 @@ import inputsAnalisePinch as iap
  Software para obter as demandas maximas e minimas pelo método
  tabular aplicado na análise Pinch.
  Também é enconrtado o ponto Pinch.
- Sempre entrar com valores de entalpia (calor) absolutos
 '''
 
 def main():
