@@ -162,15 +162,22 @@ def cascatas_finais(cascata, dt_BE, delta_t_min):
         resultado = [demanda_Q , demanda_F,temp_Pinch, t_p_q, t_p_f]
     dic_1 = {'resultado':resultado}
     dt_results = pd.DataFrame(dic_1)
+    legendas = ["Taxa de Energia(MW) -  que deve se inserida ao processo",
+     "Taxa de Energia(MW) -  que deve se retirada do processo",
+     "Temperatura Pinch (°C)",
+     "Temperatura Pinch (°C) - Modificada Quente",
+     "Temperatura Pinch (°C) - Modificada Fria"]
+    dt_legenda = pd.DataFrame({"Descrição":legendas})
+    dt_results = dt_legenda.join(dt_results)
     return dt_cascata, dt_results
 
 def saida_dados(dt,dt_BE,dt_results):
     print('=============================================================')
     print('Dados Inseridos:\n',dt)
     print('Resultado:\n',dt_results)
+    
    
 def imp_excel(dt,dt_BE,dt_results):
     dt.to_excel('entrada.xlsx')
     dt_BE.to_excel('balancoBE.xlsx')
     dt_results.to_excel('resultado.xlsx')
-    
