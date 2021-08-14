@@ -51,4 +51,3 @@ Para saber detalhes teóricos sobre a análise Pinch, recomendo a leitura do liv
    
    # Melhorias:
    1) Criar uma interface gráfica.
-   2) Caso o arquivo xlsx gerado resulte em algum problema, me contate fazendo favor.
